@@ -1,2 +1,2 @@
 # technology
-技术11
+技术

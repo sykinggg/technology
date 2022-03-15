@@ -1,0 +1,27 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "study note",
+  "main": "index.js",
+  "author": "sy",
+  "license": "MIT",
+  "scripts": {
+    "fix-memory-limit": "cross-env LIMIT=8192 increase-memory-limit",
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36"
+  },
+  "dependencies": {
+    "@vuepress/cli": "^2.0.0-beta.36",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.36",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.36",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.36",
+    "@vuepress/plugin-shiki": "^2.0.0-beta.36",
+    "@vuepress/theme-default": "^2.0.0-beta.36",
+    "camelcase-keys": "^7.0.1",
+    "cross-env": "^7.0.3",
+    "increase-memory-limit": "^1.0.7"
+  }
+}
