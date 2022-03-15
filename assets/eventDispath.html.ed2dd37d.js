@@ -1,0 +1,1 @@
+const e={key:"v-30e0bb92",path:"/ILoveDevelop/react/features/eventDispath.html",title:"\u4E8B\u4EF6\u89E6\u53D1",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"ILoveDevelop/react/features/eventDispath.md"};export{e as data};

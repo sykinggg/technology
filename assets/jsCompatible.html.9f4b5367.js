@@ -1,0 +1,1 @@
+const e={key:"v-0e1e0b3e",path:"/js/interview/jsCompatible.html",title:"\u4E8B\u4EF6\u76D1\u542C\u53E5\u67C4",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"js/interview/jsCompatible.md"};export{e as data};

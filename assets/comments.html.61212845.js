@@ -1,0 +1,1 @@
+const t={key:"v-7268312a",path:"/ts/faqs/comments.html",title:"\u8BC4\u8BBA",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"ts/faqs/comments.md"};export{t as data};

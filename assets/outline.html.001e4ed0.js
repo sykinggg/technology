@@ -1,0 +1,1 @@
+const e={key:"v-7659498a",path:"/vue/extend/outline.html",title:"\u6269\u5C55",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"vue/extend/outline.md"};export{e as data};

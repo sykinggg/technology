@@ -1,0 +1,1 @@
+const t={key:"v-638d1153",path:"/react/concurrent/disrupt.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"react/concurrent/disrupt.md"};export{t as data};
