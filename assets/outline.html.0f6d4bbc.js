@@ -1,1 +1,0 @@
-const e={key:"v-1af94ff4",path:"/vue/vue-router/outline.html",title:"Vue-Router",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"vue/vue-router/outline.md"};export{e as data};

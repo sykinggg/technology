@@ -1,1 +1,0 @@
-const e={key:"v-94ceeb72",path:"/ts/tips/classAreUseful.html",title:"\u7C7B\u662F\u6709\u7528\u7684",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"ts/tips/classAreUseful.md"};export{e as data};

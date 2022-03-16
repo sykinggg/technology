@@ -1,1 +1,0 @@
-const e={key:"v-a704ff4c",path:"/nginx/base.html",title:"\u670D\u52A1\u5668\u57FA\u7840",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Docker",slug:"docker",children:[]}],git:{updatedTime:1647333071e3,contributors:[{name:"dean-57blocks",email:"87403071+dean-57blocks@users.noreply.github.com",commits:1}]},filePathRelative:"nginx/base.md"};export{e as data};

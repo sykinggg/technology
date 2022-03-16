@@ -1,0 +1,1 @@
+const t={key:"v-1d407d92",path:"/ts/tips/staticConstructors.html",title:"TypeScript \u4E2D\u7684\u9759\u6001\u6784\u9020\u51FD\u6570",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647391795e3,contributors:[{name:"sykinggg",email:"suiyi19920228@qq.com",commits:1}]},filePathRelative:"ts/tips/staticConstructors.md"};export{t as data};
