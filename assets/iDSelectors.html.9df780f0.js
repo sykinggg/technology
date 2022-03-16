@@ -1,1 +1,0 @@
-const e={key:"v-62bcd372",path:"/mozillaCss/reference/iDSelectors.html",title:"ID \u9009\u62E9\u5668",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647391795e3,contributors:[{name:"sykinggg",email:"suiyi19920228@qq.com",commits:1}]},filePathRelative:"mozillaCss/reference/iDSelectors.md"};export{e as data};

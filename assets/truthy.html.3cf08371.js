@@ -1,1 +1,0 @@
-const t={key:"v-3e8ab3cb",path:"/ts/tips/truthy.html",title:"Truthy",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u660E\u786E\u7684",slug:"\u660E\u786E\u7684",children:[]}],git:{updatedTime:1647391795e3,contributors:[{name:"sykinggg",email:"suiyi19920228@qq.com",commits:1}]},filePathRelative:"ts/tips/truthy.md"};export{t as data};

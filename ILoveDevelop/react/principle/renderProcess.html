@@ -23,7 +23,7 @@
 			}
     </script>
     <title></title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/renderProcess.html.5e841d40.js"><link rel="modulepreload" href="/technology/assets/renderProcess.html.96fec01b.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/renderProcess.html.ef1102ca.js"><link rel="modulepreload" href="/technology/assets/renderProcess.html.7aeaeaa3.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -82,6 +82,6 @@ expirationTime <span class="token operator">=</span> <span class="token function
 <span class="token literal-property property">next</span><span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
 <span class="token literal-property property">nextEffect</span><span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>对于 <code>update</code> 对象内部的属性来说，需要重点关注的是 <code>next</code> 属性。因为 <code>update</code> 其实就是一个队列中的节点，这个属性可以用于帮助寻找下一个 <code>update</code>。对于批量更新来说，可能会创建多个 <code>update</code>，因此需要将这些 <code>update</code> 串联并存储起来，在必要的时候拿出来用于更新 <code>state</code>。</p><p>在 <code>render</code> 的过程中其实也是一次更新的操作，但是并没有 <code>setState</code>，因此就把 <code>payload</code> 赋值为 <code>{element}</code> 了。</p><p>接下来将 <code>callback</code> 赋值给 <code>update</code> 的属性，这里的 <code>callback</code> 还是 <code>ReactDom.render</code> 的第三个参数。</p><p>然后将刚才创建出来的 <code>update</code> 对象插入队列中，<code>enqueueUpdate</code> 函数内部分支较多且代码简单，这里就不再贴出代码了，有兴趣的可以自行阅读。函数核心作用就是创建或者获取一个队列，然后把 <code>update</code> 对象入队。</p><p>最后调用 <code>scheduleWork</code> 函数，这里开始就是调度相关的内容，这部分内容将在下一篇文章中来详细解析。</p><h2 id="总结-1" tabindex="-1"><a class="header-anchor" href="#总结-1" aria-hidden="true">#</a> <strong>总结</strong></h2><img src="/technology/assets/reactIloveDeveplo/2019-06-01-032003.png" alt="总结流程图"><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

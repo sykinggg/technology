@@ -1,1 +1,0 @@
-const t={key:"v-99aa89dc",path:"/ts/tips/curry.html",title:"\u67EF\u91CC\u5316",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647391795e3,contributors:[{name:"sykinggg",email:"suiyi19920228@qq.com",commits:1}]},filePathRelative:"ts/tips/curry.md"};export{t as data};

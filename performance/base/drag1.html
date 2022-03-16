@@ -23,7 +23,7 @@
 			}
     </script>
     <title>可视化拖拽组件库原理分析 | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/drag1.html.587b4fc8.js"><link rel="modulepreload" href="/technology/assets/drag1.html.151e4d08.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/drag1.html.a4d4242c.js"><link rel="modulepreload" href="/technology/assets/drag1.html.e869127b.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -1646,6 +1646,6 @@ componentList.forEach(component =&gt; {
   <span class="token punctuation">[</span><span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token string">&#39;remove&#39;</span><span class="token punctuation">,</span> <span class="token literal-property property">value</span><span class="token operator">:</span> c <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
 <span class="token punctuation">]</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><ol><li><p><code>snapshotData[0]</code> 类型为 <code>add</code>，将组件 <code>a</code> 添加到 <code>componentData</code> 中，此时 <code>componentData</code> 为 <code>[a]</code></p></li><li><p>依次类推 <code>[a, b]</code></p></li><li><p><code>[a, b, c]</code></p></li><li><p><code>[a, b, c, d]</code></p></li></ol><p>如果这时执行 <code>redo</code> 重做操作，快照索引 <code>snapshotIndex</code> 变为 4。对应的快照数据类型为 <code>type: &#39;remove&#39;</code>， 移除组件 c。则数组数据为 <code>[a, b, d]</code>。</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><!----><span class="next"><a href="/technology/performance/base/cache.html" class="" aria-label="前端缓存"><!--[--><!--]--> 前端缓存 <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

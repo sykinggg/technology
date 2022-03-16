@@ -23,7 +23,7 @@
 			}
     </script>
     <title>常见的 Error | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/common.html.c784ce42.js"><link rel="modulepreload" href="/technology/assets/common.html.637f5d41.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/common.html.4a3d94b2.js"><link rel="modulepreload" href="/technology/assets/common.html.9063cc98.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -42,6 +42,6 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="接口-elementclass-不能同时扩展类型别名-component-和-component" tabindex="-1"><a class="header-anchor" href="#接口-elementclass-不能同时扩展类型别名-component-和-component" aria-hidden="true">#</a> 接口 <code>ElementClass</code> 不能同时扩展类型别名 <code>Component</code> 和 <code>Component</code></h2><p>当在编译上下文中同时含有两个 <code>react.d.ts</code>（<code>@types/react/index.d.ts</code>）会发生这种情况。</p><p>修复：</p><ul><li>删除 <code>node_modules</code> 和任何 <code>package-lock</code>（或者 <code>yarn lock</code>），然后再一次 <code>npm install</code>；</li><li>如果这不能工作，查找无效的模块（你所使用的所用用到了 <code>react.d.ts</code> 模块应该作为 <code>peerDependency</code> 而不是作为 <code>dependency</code> 使用）并且把这个报告给相关模块。</li></ul><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/technology/ts/error/interpreting.html" class="" aria-label="解读 Errors"><!--[--><!--]--> 解读 Errors <!--[--><!--]--></a></span><!----></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

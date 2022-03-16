@@ -23,7 +23,7 @@
 			}
     </script>
     <title></title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/baseProyotype.html.a88fb100.js"><link rel="modulepreload" href="/technology/assets/baseProyotype.html.635f3eef.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/baseProyotype.html.e07314f0.js"><link rel="modulepreload" href="/technology/assets/baseProyotype.html.ce3cf927.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -146,6 +146,6 @@ p<span class="token punctuation">.</span>__proto__ <span class="token operator">
 p<span class="token punctuation">.</span>__proto__<span class="token punctuation">.</span>__proto__ <span class="token operator">===</span> <span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">;</span> <span class="token comment">// true</span>
 p<span class="token punctuation">.</span>__proto__<span class="token punctuation">.</span>__proto__<span class="token punctuation">.</span>__proto__ <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">;</span> <span class="token comment">// true</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>小结</p><ul><li><p><code>Symbol</code> 作为构造函数来说并不完整，因为不支持语法 <code>new Symbol()</code>，但其原型上拥有 <code>constructor</code> 属性，即 <code>Symbol.prototype.constructor</code>。</p></li><li><p>引用类型 <code>constructor</code> 属性值是可以修改的，但是对于基本类型来说是只读的，当然 <code>null</code> 和 <code>undefined</code> 没有 <code>constructor</code> 属性。</p></li><li><p><code>__proto__</code> 是每个实例上都有的属性，<code>prototype</code> 是构造函数的属性，这两个并不一样，但 <code>p.__proto__</code> 和 <code>Parent.prototype</code> 指向同一个对象。</p></li><li><p><code>__proto__</code> 属性在 ES6 时被标准化，但因为性能问题并不推荐使用，推荐使用 <code>Object.getPrototypeOf()</code>。</p></li><li><p>每个对象拥有一个原型对象，通过 <code>__proto__</code> 指针指向上一个原型 ，并从中继承方法和属性，同时原型对象也可能拥有原型，这样一层一层，最终指向 <code>null</code>，这就是原型链。</p></li></ul><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

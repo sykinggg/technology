@@ -23,7 +23,7 @@
 			}
     </script>
     <title>parse | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/parse.html.e928243e.js"><link rel="modulepreload" href="/technology/assets/parse.html.9bf27e02.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/parse.html.365c50da.js"><link rel="modulepreload" href="/technology/assets/parse.html.03bad465.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -659,6 +659,6 @@ text <span class="token operator">=</span> inPre <span class="token operator">||
  <span class="token literal-property property">tokens</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token string-property property">&#39;@binding&#39;</span><span class="token operator">:</span><span class="token string">&#39;item&#39;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token string">&#39;:&#39;</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string-property property">&#39;@binding&#39;</span><span class="token operator">:</span><span class="token string">&#39;index&#39;</span><span class="token punctuation">}</span><span class="token punctuation">]</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="流程图" tabindex="-1"><a class="header-anchor" href="#流程图" aria-hidden="true">#</a> 流程图</h2><img src="/technology/assets/vue/parse.png" alt="demo"><h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结" aria-hidden="true">#</a> 总结</h2><p>那么至此，<code>parse</code> 的过程就分析完了，看似复杂，但可以抛开细节理清它的整体流程。<code>parse</code> 的目标是把 <code>template</code> 模板字符串转换成 AST 树，它是一种用 JavaScript 对象的形式来描述整个模板。那么整个 <code>parse</code> 的过程是利用正则表达式顺序解析模板，当解析到开始标签、闭合标签、文本的时候都会分别执行对应的回调函数，来达到构造 AST 树的目的。</p><p>AST 元素节点总共有 3 种类型，<code>type</code> 为 1 表示是普通元素，为 2 表示是表达式，为 3 表示是纯文本。其实这里觉得源码写的不够友好，这种是典型的魔术数字，如果转换成用常量表达会更利于源码阅读。</p><p>当 AST 树构造完毕，下一步就是 <code>optimize</code> 优化这颗树。</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

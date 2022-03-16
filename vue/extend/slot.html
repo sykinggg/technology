@@ -23,7 +23,7 @@
 			}
     </script>
     <title>slot | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/slot.html.9a159c87.js"><link rel="modulepreload" href="/technology/assets/slot.html.facd1a2c.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/slot.html.2eb67a19.js"><link rel="modulepreload" href="/technology/assets/slot.html.1e0a52da.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -448,6 +448,6 @@
   vm<span class="token punctuation">.</span>$scopedSlots <span class="token operator">=</span> _parentVnode<span class="token punctuation">.</span>data<span class="token punctuation">.</span>scopedSlots <span class="token operator">||</span> emptyObject
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>这个 <code>_parentVNode.data.scopedSlots</code> 对应的就是在父组件通过执行 <code>resolveScopedSlots</code> 返回的对象。所以回到 <code>genSlot</code> 函数，就可以通过插槽的名称拿到对应的 <code>scopedSlotFn</code>，然后把相关的数据扩展到 <code>props</code> 上，作为函数的参数传入，原来之前提到的函数这个时候执行，然后返回生成的 <code>vnodes</code>，为后续渲染节点用。</p><p>后续流程之前已介绍过，不再赘述，那么至此，作用域插槽的实现也就分析完毕。</p><h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结" aria-hidden="true">#</a> 总结</h2><p>通过这一章的分析，了解了普通插槽和作用域插槽的实现。它们有一个很大的差别是数据作用域，普通插槽是在父组件编译和渲染阶段生成 <code>vnodes</code>，所以数据的作用域是父组件实例，子组件渲染的时候直接拿到这些渲染好的 <code>vnodes</code>。而对于作用域插槽，父组件在编译和渲染阶段并不会直接生成 <code>vnodes</code>，而是在父节点 <code>vnode</code> 的 <code>data</code> 中保留一个 <code>scopedSlots</code> 对象，存储着不同名称的插槽以及它们对应的渲染函数，只有在编译和渲染子组件阶段才会执行这个渲染函数生成 <code>vnodes</code>，由于是在子组件环境执行的，所以对应的数据作用域是子组件实例。</p><p>简单地说，两种插槽的目的都是让子组件 <code>slot</code> 占位符生成的内容由父组件来决定，但数据的作用域会根据它们 <code>vnodes</code> 渲染时机不同而不同。</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

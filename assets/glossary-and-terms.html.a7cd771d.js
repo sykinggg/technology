@@ -1,0 +1,1 @@
+const t={key:"v-f7469f08",path:"/ts/faqs/glossary-and-terms.html",title:"\u672F\u8BED\u8868",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647393305e3,contributors:[{name:"sykinggg",email:"suiyi19920228@qq.com",commits:1}]},filePathRelative:"ts/faqs/glossary-and-terms.md"};export{t as data};

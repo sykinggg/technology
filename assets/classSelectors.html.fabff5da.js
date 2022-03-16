@@ -1,0 +1,1 @@
+const e={key:"v-c7f298d4",path:"/mozillaCss/reference/classSelectors.html",title:"\u7C7B\u9009\u62E9\u5668",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647393305e3,contributors:[{name:"sykinggg",email:"suiyi19920228@qq.com",commits:1}]},filePathRelative:"mozillaCss/reference/classSelectors.md"};export{e as data};

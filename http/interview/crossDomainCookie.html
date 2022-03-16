@@ -23,7 +23,7 @@
 			}
     </script>
     <title>跨域请求如何携带cookie | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/crossDomainCookie.html.60c02549.js"><link rel="modulepreload" href="/technology/assets/crossDomainCookie.html.5aee9d21.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/crossDomainCookie.html.8ab2b9df.js"><link rel="modulepreload" href="/technology/assets/crossDomainCookie.html.b36c8946.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -127,6 +127,6 @@ app<span class="token punctuation">.</span><span class="token function">all</spa
   <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>再发送一个跨域请求：</p></blockquote><img src="/technology/assets/http/6af693163705471fa3e4d55ad8be5981_tplv-k3u1fbpfcp-zoom-in-crop-mark_1304_0_0_0.webp" alt="demo"><img src="/technology/assets/http/a3132a2065fe4a4e81b4825fc45865f3_tplv-k3u1fbpfcp-zoom-in-crop-mark_1304_0_0_0.webp" alt="demo"><p>可以看到，这个跨域请求已经请求成功并且返回数据了！而且也携带了<code>A</code>服务的<code>cookie</code>，这个时候已经大功告成了。</p><h2 id="三、总结" tabindex="-1"><a class="header-anchor" href="#三、总结" aria-hidden="true">#</a> 三、总结</h2><ol><li><p>前端请求时在<code>request</code>对象中配置<code>&quot;withCredentials&quot;: true</code>；</p></li><li><p>服务端在<code>response</code>的<code>header</code>中配置<code>&quot;Access-Control-Allow-Origin&quot;</code>, <code>&quot;http://xxx:${port}&quot;</code>;</p></li><li><p>服务端在<code>response的header</code>中配置<code>&quot;Access-Control-Allow-Credentials&quot;</code>, <code>&quot;true&quot;</code></p></li></ol><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><!----><span class="next"><a href="/technology/http/interview/nestAxios.html" class="" aria-label="Nest.js + Axios 实现接口"><!--[--><!--]--> Nest.js + Axios 实现接口 <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

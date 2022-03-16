@@ -23,7 +23,7 @@
 			}
     </script>
     <title>一些不能按预期工作的代码 | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/thing-that-dont-work.html.8c4a7672.js"><link rel="modulepreload" href="/technology/assets/thing-that-dont-work.html.a8d0fbff.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/thing-that-dont-work.html.4f0837d2.js"><link rel="modulepreload" href="/technology/assets/thing-that-dont-work.html.366771d9.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -59,6 +59,6 @@ a<span class="token punctuation">.</span><span class="token function">increment<
   <span class="token keyword">return</span> MyClass<span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>这里有两个问题：</p><p>首先，建议改变的行为与 ECMAScript 规范不一致。在这方面没有任何异议 -- TypeScript 必须与 JavaScript 具有相同的运行时行为。</p><p>其次，这个运行时类的特点非常令人惊讶。它为每个实例的每个方法创建一个闭包，而不是为每个方法创建一个闭包，这在初始化时，内存、以及垃圾回收上的性能都非常糟糕。</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/technology/ts/faqs/jsx-and-react.html" class="" aria-label="JSX 和 React"><!--[--><!--]--> JSX 和 React <!--[--><!--]--></a></span><span class="next"><a href="/technology/ts/faqs/commandline-behavior.html" class="" aria-label="命令行的行为"><!--[--><!--]--> 命令行的行为 <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

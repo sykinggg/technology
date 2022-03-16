@@ -23,7 +23,7 @@
 			}
     </script>
     <title></title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/diff.html.b34d7e3c.js"><link rel="modulepreload" href="/technology/assets/diff.html.a2c735be.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/diff.html.fdcfff71.js"><link rel="modulepreload" href="/technology/assets/diff.html.2ca8550e.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -96,6 +96,6 @@
     <span class="token function">removeVnodes</span><span class="token punctuation">(</span>oldCh<span class="token punctuation">,</span> oldStartIdx<span class="token punctuation">,</span> oldEndIdx<span class="token punctuation">)</span> <span class="token comment">// 移除 oldStartIdx - oldEndIdx 之间的所有节点</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>再回过头看的实例，新节点的数目大于旧节点，需要创建 <code>newStartIdx</code> 和 <code>newEndIdx</code> 之间的所有节点。在的实例中就是节点 F，因此直接创建 F 节点对应的真实节点放到 B 节点后面即可。</p><p><img src="https://static001.infoq.cn/resource/image/dc/ad/dc215b45682cf6c9cc4700a5425673ad.png" alt="第六次示例图"></p><h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结" aria-hidden="true">#</a> <strong>总结</strong></h2><ul><li><p>首先，对比节点本身，判断是否为同一节点，如果不为相同节点，则删除该节点重新创建节点进行替换</p></li><li><p>如果为相同节点，进行<code>patchVnode</code>，判断如何对该节点的子节点进行处理，先判断一方有子节点一方没有子节点的情况(如果新的<code>children</code>没有子节点，将旧的子节点移除)</p></li><li><p>比较如果都有子节点，则进行<code>updateChildren</code>，判断如何对这些新老节点的子节点进行操作（<code>diff</code>核心）。</p></li><li><p>匹配时，找到相同的子节点，递归比较子节点</p></li></ul><p>在<code>diff</code>中，只对同层的子节点进行比较，放弃跨级的节点比较，使得时间复杂从<code>O(n^3)</code>降低值<code>O(n)</code>，也就是说，只有当新旧<code>children</code>都为多个子节点时才需要用核心的<code>Diff</code>算法进行同层级比较。</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

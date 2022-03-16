@@ -23,7 +23,7 @@
 			}
     </script>
     <title>render | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/render.html.38e0aaa4.js"><link rel="modulepreload" href="/technology/assets/render.html.eacf0238.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/render.html.c98a9596.js"><link rel="modulepreload" href="/technology/assets/render.html.aa4d6ab5.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -109,6 +109,6 @@
 <span class="token punctuation">}</span>
 
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>实际上，<code>vm.$createElement</code> 方法定义是在执行 <code>initRender</code> 方法的时候，可以看到除了 <code>vm.$createElement</code> 方法，还有一个 <code>vm._c</code> 方法，它是被模板编译成的 <code>render</code> 函数使用，而 <code>vm.$createElement</code> 是用户手写 <code>render</code> 方法使用的， 这俩个方法支持的参数相同，并且内部都调用了 <code>createElement</code> 方法。</p><h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结" aria-hidden="true">#</a> 总结</h2><p><code>vm._render</code> 最终是通过执行 <code>createElement</code> 方法并返回的是 <code>vnode</code>，它是一个虚拟 Node。Vue 2.0 相比 Vue 1.0 最大的升级就是利用了 Virtual DOM。因此在分析 <code>createElement</code> 的实现前，先了解一下 Virtual DOM 的概念。</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

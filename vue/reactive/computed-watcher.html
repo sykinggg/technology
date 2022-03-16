@@ -23,7 +23,7 @@
 			}
     </script>
     <title>计算属性 VS 侦听属性 | </title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/computed-watcher.html.89827ddb.js"><link rel="modulepreload" href="/technology/assets/computed-watcher.html.99b124f0.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/computed-watcher.html.064e3a5c.js"><link rel="modulepreload" href="/technology/assets/computed-watcher.html.35965396.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -363,6 +363,6 @@ vm<span class="token punctuation">.</span>a<span class="token punctuation">.</sp
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>只有当需要 watch 的值的变化到执行 <code>watcher</code> 的回调函数是一个同步过程的时候才会去设置该属性为 true。</p><h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结" aria-hidden="true">#</a> 总结</h2><p>通过这一小节的分析对计算属性和侦听属性的实现有了深入的了解，计算属性本质上是 <code>computed watcher</code>，而侦听属性本质上是 <code>user watcher</code>。就应用场景而言，计算属性适合用在模板渲染中，某个值是依赖了其它的响应式对象甚至是计算属性计算而来；而侦听属性适用于观测某个值的变化去完成一段复杂的业务逻辑。</p><p>同时又了解了 <code>watcher</code> 的 4 个 <code>options</code>，通常会在创建 <code>user watcher</code> 的时候配置 <code>deep</code> 和 <code>sync</code>，可以根据不同的场景做相应的配置。</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>

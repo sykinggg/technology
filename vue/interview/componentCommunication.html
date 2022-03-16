@@ -23,7 +23,7 @@
 			}
     </script>
     <title></title><meta name="description" content="君子藏器于身 待时而动 天下有道则见 无道则隐">
-    <link rel="modulepreload" href="/technology/assets/app.ee3fc36b.js"><link rel="modulepreload" href="/technology/assets/componentCommunication.html.7f049936.js"><link rel="modulepreload" href="/technology/assets/componentCommunication.html.4ca8752a.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/technology/assets/app.b05da4ec.js"><link rel="modulepreload" href="/technology/assets/componentCommunication.html.28eb4651.js"><link rel="modulepreload" href="/technology/assets/componentCommunication.html.f91f4ce4.js"><link rel="modulepreload" href="/technology/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/technology/assets/style.5f6eabfb.css">
   </head>
   <body>
@@ -415,6 +415,6 @@ Event<span class="token punctuation">.</span><span class="token function">$on</s
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>component-b</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>component-b</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>component-b</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>component-b</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>想在 <code>component-a</code> 中，访问到引用它的页面中（这里就是 <code>parent.vue</code>）的两个 <code>component-b</code> 组件，那这种情况下，就得配置额外的插件或工具了，比如 <code>Vuex</code> 和 <code>Bus</code> 的解决方案。</p><h2 id="vue组件间通信总结" tabindex="-1"><a class="header-anchor" href="#vue组件间通信总结" aria-hidden="true">#</a> <strong>vue组件间通信总结</strong></h2><p>常见使用场景可以分为三类：</p><ul><li><p>父子通信：</p><ul><li>父向子传递数据是通过 <code>props</code>，子向父是通过 events（<code>$emit</code>）；通过<code>父链</code> / <code>子链</code>也可以通信（<code>$parent</code> / <code>$children</code>）；<code>ref</code> 也可以访问组件实例；<code>provide</code> / <code>inject API</code>；<code>$attrs</code>/<code>$listeners</code></li></ul></li><li><p>兄弟通信：</p><ul><li><code>Bus；Vuex</code></li></ul></li><li><p>跨级通信：</p><ul><li><code>Bus；Vuex</code>；<code>provide</code> / <code>inject API</code>、<code>$attrs</code>/<code>$listeners</code></li></ul></li></ul><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: suiyi19920228@qq.com">sykinggg</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/technology/assets/app.ee3fc36b.js" defer></script>
+    <script type="module" src="/technology/assets/app.b05da4ec.js" defer></script>
   </body>
 </html>
