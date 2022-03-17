@@ -1,5 +1,0 @@
-* [React-form-hooks](https://react-hook-form.com/)
-* [unform](https://unform.dev/)
-* [formik](https://formik.org/)
-* [react-jsonschema-form](https://react-jsonschema-form.readthedocs.io/)
-* [redux-form](https://redux-form.com/)
