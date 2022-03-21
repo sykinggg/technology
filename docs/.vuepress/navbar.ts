@@ -6,7 +6,7 @@ export const navbar: NavbarConfig = [
     children: [
       {
         text: '碎片整理',
-        link: '/pmp06Fragments/base.md',
+        link: '/pmp06Fragments/1.md',
       }
     ]
   }
