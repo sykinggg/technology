@@ -3,9 +3,9 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const sidebar: SidebarConfig = {
-  '/pmp06Fragments/': [
-    '/pmp06Fragments/1.md',
-    '/pmp06Fragments/2.md',
+  '/pmpFragments/': [
+    '/pmpFragments/1.md',
+    '/pmpFragments/2.md',
   ],
   // '/jsInterview/': [
   //   {
