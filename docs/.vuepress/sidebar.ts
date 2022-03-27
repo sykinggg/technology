@@ -6,6 +6,7 @@ export const sidebar: SidebarConfig = {
   '/pmpFragments/': [
     '/pmpFragments/1.md',
     '/pmpFragments/2.md',
+    '/pmpFragments/3.md',
   ],
   // '/jsInterview/': [
   //   {
