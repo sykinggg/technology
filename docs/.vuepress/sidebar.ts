@@ -8,6 +8,9 @@ export const sidebar: SidebarConfig = {
     '/pmpFragments/2.md',
     '/pmpFragments/3.md',
   ],
+  '/pmpClass/': [
+    '/pmpClass/1.md',
+  ],
   // '/jsInterview/': [
   //   {
   //     text: '第 1 期：基础面试题',

@@ -9,5 +9,14 @@ export const navbar: NavbarConfig = [
         link: '/pmpFragments/1.md',
       }
     ]
+  },
+  {
+    text: 'pmpClass',
+    children: [
+      {
+        text: '课程笔记',
+        link: '/pmpClass/1.md',
+      }
+    ]
   }
 ]
