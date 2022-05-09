@@ -10,6 +10,7 @@ export const sidebar: SidebarConfig = {
   ],
   '/pmpClass/': [
     '/pmpClass/1.md',
+    '/pmpClass/2.md',
   ],
   // '/jsInterview/': [
   //   {
